@@ -11,9 +11,6 @@
         },
         {
             "m_Id": "fb092d35f8154e8f91bd96d0d33388b5"
-        },
-        {
-            "m_Id": "c620f94cb6e84637b6ab6d63394da63c"
         }
     ],
     "m_Keywords": [],
@@ -484,7 +481,7 @@
                 "m_Node": {
                     "m_Id": "e05fa55bd9ac42b99f3eca96a0a78914"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 0
             },
             "m_InputSlot": {
                 "m_Node": {
@@ -498,7 +495,7 @@
                 "m_Node": {
                     "m_Id": "ec45ebfdd8c94e87af5eb625522e7a43"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 0
             },
             "m_InputSlot": {
                 "m_Node": {
@@ -2048,8 +2045,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 0.15000000596046449,
-        "y": -0.15000000596046449,
+        "x": 0.012000000104308129,
+        "y": -0.009999999776482582,
         "z": 0.0,
         "w": 0.0
     }
@@ -2139,9 +2136,6 @@
         },
         {
             "m_Id": "670c9a3403094d34b3d720e75f8b1c94"
-        },
-        {
-            "m_Id": "c620f94cb6e84637b6ab6d63394da63c"
         }
     ]
 }
@@ -3436,33 +3430,6 @@
 }
 
 {
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "c620f94cb6e84637b6ab6d63394da63c",
-    "m_Guid": {
-        "m_GuidSerialized": "940994b2-5476-45d8-9e3c-5444184ca427"
-    },
-    "m_Name": "Alpha",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Alpha",
-    "m_DefaultReferenceName": "_Alpha",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 0.0,
-    "m_FloatType": 0,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 1.0
-    }
-}
-
-{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "c64332a7596648cbab2a97c194576b2f",
@@ -4343,7 +4310,7 @@
     "m_Hidden": false,
     "m_Value": {
         "x": -0.15000000596046449,
-        "y": 0.15000000596046449,
+        "y": 0.25,
         "z": 0.0,
         "w": 0.0
     }
