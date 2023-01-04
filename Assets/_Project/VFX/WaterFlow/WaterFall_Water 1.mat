@@ -9,17 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: WaterFall_Water 1
   m_Shader: {fileID: -6465566751694194690, guid: 1601c1473a518764a9208c5e71471c09, type: 3}
-  m_ValidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
+    RenderType: Opaque
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -32,7 +30,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Texture:
-        m_Texture: {fileID: 2800000, guid: e3c9cfa70eac4a948ab3d4619390aa71, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -55,8 +53,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Distortion_Mask:
+        m_Texture: {fileID: 2800000, guid: a86d38543b1ecaa48b96d23311af0df9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: a86d38543b1ecaa48b96d23311af0df9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -75,12 +81,28 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Refraction_Texture:
+        m_Texture: {fileID: 2800000, guid: a86d38543b1ecaa48b96d23311af0df9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_003e664b65264dcfae9410eaa908453e_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 85b17020f6fcce542b36718b6aef4524, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_066a7c3752f1420c93293d14b1171248_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 85b17020f6fcce542b36718b6aef4524, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_cd98a8039f074fc3ae3cfae0109d5b1f_Texture_1:
         m_Texture: {fileID: 2800000, guid: fe5033d1eb701d54ea94c31f37d87baf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_ff67663ef71e464da14c8984bc7fece2_Texture_1:
         m_Texture: {fileID: 2800000, guid: fe5033d1eb701d54ea94c31f37d87baf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shadow_Texture:
+        m_Texture: {fileID: 2800000, guid: 3b663b2468cacb642b0682d2f0d2f0e0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -110,7 +132,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Blend: 2
+    - _Amplitude: -0.01
+    - _Base_Texture_Tilling: 1
+    - _Blend: 0
     - _BumpScale: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
@@ -119,16 +143,24 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DistortionStrenght: 0
     - _Distortion_Amplitude: 0.08
-    - _Distortion_Strenght: 1.2
-    - _DstBlend: 1
+    - _Distortion_Intensity: 1
+    - _Distortion_Strenght: 0
+    - _DstBlend: 0
+    - _EdgeBlend: 1.76
+    - _EffectRadius: 0
     - _EnvironmentReflections: 1
+    - _Float: 0
     - _FlowSpeed: 0
     - _FoamAmount: 1
     - _FoamCutOff: 1
     - _FoamScale: 100
     - _FoamSpeed: 1
-    - _Frequency: 3
+    - _Foam_Dark_Tilling: 0.5
+    - _Foam_Shadow_Tilling: 1
+    - _Foam_Texture_Tilling: 1
+    - _Frequency: 2
     - _Fresnel: 0
     - _Fresnel_Intensity: 1
     - _Fresnel_Opacity: 0
@@ -147,31 +179,47 @@ Material:
     - _RefractionScale: 0.5
     - _RefractionSpeed: 0.3
     - _RefractionStrenght: 1
+    - _Refraction_Tilling: 1
     - _RotationAngle: 0
+    - _S_Distortion_Intensity: 1
     - _ScrollingSpeed: 1.24
+    - _Shadow_Tilling: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 1
-    - _SrcBlend: 5
-    - _Surface: 1
+    - _Speed: 1.66
+    - _SrcBlend: 1
+    - _Surface: 0
     - _Tiling: 1
     - _WaterDeph: 10
+    - _WaveLenght: 1
+    - _WaveReach: 4.66
     - _WorkflowMode: 1
     - _ZTest: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.2901961, g: 0.2901961, b: 1, a: 1}
     - _DeepWater: {r: 0, g: 0.1457092, b: 0.3396226, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlowSpeedDirection: {r: 0, g: -0.3, b: 0, a: 0}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7843137}
+    - _Horizontal_Offset_Range: {r: 0, g: 1, b: 0, a: 0}
+    - _Horizontal_Tilling_Range: {r: 0.15, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _S_Horizontal_Offset_Range: {r: 0.66, g: 0.9, b: 0, a: 0}
+    - _S_Horizontal_Tilling_Range: {r: 0.1, g: 1, b: 0, a: 0}
+    - _S_Speed_Range: {r: 0.1, g: 0.5, b: 0, a: 0}
+    - _S_Vertical_Offset_Range: {r: 0.3, g: 0.5, b: 0, a: 0}
+    - _S_Vertical_TIlling_Range: {r: 0.3, g: 0.4, b: 0, a: 0}
     - _ShallowWater: {r: 0, g: 0.6163461, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _Tilling: {r: 0.38, g: -2, b: 0, a: 0}
+    - _Speed_Range: {r: 0.1, g: 0.5, b: 0, a: 0}
+    - _Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _Vertical_Offset_Range: {r: 0, g: 1, b: 0, a: 0}
+    - _Vertical_TIlling_Range: {r: 0.15, g: 1, b: 0, a: 0}
+    - _WavesOrigin: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6702370140997253086
 MonoBehaviour:
