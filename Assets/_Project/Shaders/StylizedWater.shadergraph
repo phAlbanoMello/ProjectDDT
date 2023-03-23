@@ -1403,6 +1403,9 @@
             "m_Id": "ab92494cb58c4fe4854283fed781dadd"
         },
         {
+            "m_Id": "adca58011db84d1fa99cb7dd85d0f358"
+        },
+        {
             "m_Id": "3003f2ab9f1946748eeb169779a32f25"
         }
     ],
@@ -1417,12 +1420,14 @@
     "m_PropertyGuids": [
         "45a874a3-1d56-497b-ab30-f798e789e56b",
         "0a272808-f41c-4366-9ddd-e92a75d09206",
-        "979a0f21-3f60-41a5-91eb-e82f72d4a9db"
+        "979a0f21-3f60-41a5-91eb-e82f72d4a9db",
+        "0a2a838f-0a0f-497e-ae98-c74d5576de28"
     ],
     "m_PropertyIds": [
         -4075335,
         1698353660,
-        578686882
+        578686882,
+        642606971
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -3315,6 +3320,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "72c2338ae4aa4026b5bbdb0e14e4e447",
+    "m_Id": 642606971,
+    "m_DisplayName": "OffsetSpeedDirection",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_OffsetSpeedDirection",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 1.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "72d34fe2cb9742dba0f6239cd816a82a",
     "m_Id": 1,
@@ -4651,6 +4677,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "adca58011db84d1fa99cb7dd85d0f358",
+    "m_Id": 642606971,
+    "m_DisplayName": "OffsetSpeedDirection",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_OffsetSpeedDirection",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 1.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalUnlitSubTarget",
     "m_ObjectId": "adf25119766742cd8c3cf42d6e566e82"
 }
@@ -5921,6 +5968,9 @@
             "m_Id": "3fb057f59e3847319d509ba1d5738f1b"
         },
         {
+            "m_Id": "72c2338ae4aa4026b5bbdb0e14e4e447"
+        },
+        {
             "m_Id": "b51a732370f74db299b9af2aeec8a82c"
         }
     ],
@@ -5935,12 +5985,14 @@
     "m_PropertyGuids": [
         "45a874a3-1d56-497b-ab30-f798e789e56b",
         "0a272808-f41c-4366-9ddd-e92a75d09206",
-        "979a0f21-3f60-41a5-91eb-e82f72d4a9db"
+        "979a0f21-3f60-41a5-91eb-e82f72d4a9db",
+        "0a2a838f-0a0f-497e-ae98-c74d5576de28"
     ],
     "m_PropertyIds": [
         -4075335,
         1698353660,
-        578686882
+        578686882,
+        642606971
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []

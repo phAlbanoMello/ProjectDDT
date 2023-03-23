@@ -93,6 +93,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 85b17020f6fcce542b36718b6aef4524, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b1ad339e532442efb9b33e74e0b9fc4f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f72fd741904030d44b77de59c8a0fb96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Shadow_Texture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -127,6 +131,7 @@ Material:
     - _Amplitude: 0.005
     - _Base_Texture_Tilling: 0
     - _Blend: 2
+    - _Blend_Height: 1.51
     - _BumpScale: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
@@ -150,24 +155,33 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _Noise_AngleOffset: 0
+    - _Noise_Density: 1
     - _Noise_Scale: 0.35
+    - _Noise_Size: 0
+    - _Noise_Speed: 1
     - _OcclusionStrength: 1
     - _Outline: 0
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: -20
+    - _R_Speed: 0
     - _ReceiveShadows: 1
+    - _RefractionStrenght: 0
     - _Refraction_Tilling: 1
     - _RotationAngle: 0
     - _S_Distortion_Intensity: 2
+    - _S_Speed: 0
     - _Shadow_Tilling: 1.7
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 1.5
     - _SrcBlend: 1
+    - _Strenght: 1
     - _Surface: 0
     - _Tiling: 1
+    - _Vertex_Offset_Amount: 0
     - _WaveLenght: 1
     - _WaveReach: 0
     - _WorkflowMode: 1
@@ -177,6 +191,8 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.4731373, g: 0.735922, b: 0.99607843, a: 1}
+    - _Color_1: {r: 0, g: 0.8274511, b: 0.6745098, a: 1}
+    - _Color_2: {r: 0, g: 0.627451, b: 0.8470589, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlowSpeedDirection: {r: 0, g: -0.3, b: 0, a: 0}
     - _Horizontal_Offset_Range: {r: 0.66, g: 0.9, b: 0, a: 0}
@@ -192,6 +208,7 @@ Material:
     - _Tilling: {r: 0.89, g: -2, b: 0, a: 0}
     - _Vertical_Offset_Range: {r: 0.3, g: 0.5, b: 0, a: 0}
     - _Vertical_TIlling_Range: {r: 0.3, g: 0.4, b: 0, a: 0}
+    - _WaterSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _WavesOrigin: {r: 0, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6702370140997253086
