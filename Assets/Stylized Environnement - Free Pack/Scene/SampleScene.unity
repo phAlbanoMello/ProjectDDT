@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.3203377, g: 0.65778905, b: 0.7203112, a: 1}
+  m_IndirectSpecularColor: {r: 0.32010984, g: 0.6578074, b: 0.720245, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1644,6 +1644,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 539504186}
     m_Modifications:
+    - target: {fileID: 779428181017245439, guid: a758c9966af9e45ab9f4f272a35a2e08, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.67
+      objectReference: {fileID: 0}
     - target: {fileID: 3414317473238138344, guid: a758c9966af9e45ab9f4f272a35a2e08, type: 3}
       propertyPath: m_Name
       value: rock_01 (15)
@@ -1989,14 +1993,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962113602}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.96269846, y: 3.2, z: -15.609766}
-  m_LocalScale: {x: 130.54962, y: 3.9823272, z: 488.5726}
+  m_LocalRotation: {x: -0, y: 0.7315056, z: -0, w: 0.68183553}
+  m_LocalPosition: {x: 0.2, y: 4.52, z: -6.9}
+  m_LocalScale: {x: 130.54962, y: 3.9823272, z: 171.47252}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 94.026, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2860,7 +2864,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587906361}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.84, y: 5.6, z: -5.38}
+  m_LocalPosition: {x: -1.84, y: 4.53, z: -1.69}
   m_LocalScale: {x: 3.6516, y: 3.6516, z: 3.6516}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3666,7 +3670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2040376994840921275, guid: 9cf4c2a6fda934689a54f304efc01674, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.410215
+      value: 12.37
       objectReference: {fileID: 0}
     - target: {fileID: 2040376994840921275, guid: 9cf4c2a6fda934689a54f304efc01674, type: 3}
       propertyPath: m_LocalPosition.y

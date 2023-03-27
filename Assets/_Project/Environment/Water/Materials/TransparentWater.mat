@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TransparentWater
-  m_Shader: {fileID: -6465566751694194690, guid: 5970b70cd41dca947986abba2e91ac15, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: cbc0084e29dee794c8349b37a41bc9f4, type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
@@ -56,27 +56,35 @@ Material:
     - _CastShadows: 0
     - _Cull: 2
     - _DstBlend: 10
-    - _FoamAmount: 0.4
+    - _FoamAmount: 0.5
     - _FoamCutOff: 1
-    - _FoamScale: 20
+    - _FoamScale: 50
     - _FoamSpeed: 1
+    - _Foam_Amount: 5
+    - _Foam_CutOff: 1
+    - _Foam_Scale: 50
+    - _Foam_Speed: 1
     - _Frequency: 5
-    - _Fresnel: 0
+    - _Fresnel: 1
     - _Fresnel_Intensity: 0.5
     - _Fresnel_Opacity: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionScale: 0.025
-    - _RefractionSpeed: 0.05
-    - _RefractionStrenght: 0.05
+    - _RefractionScale: 0.06
+    - _RefractionSpeed: 0.04
+    - _RefractionStrenght: 0.1
     - _SrcBlend: 5
     - _Surface: 1
     - _WaterDeph: 10
+    - _Water_Deph: 5
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _DeepWater: {r: 0.0033819948, g: 0.30686662, b: 0.7169812, a: 0.5176471}
+    - _DeepWater: {r: 0, g: 0.18759067, b: 0.4433962, a: 0.5176471}
+    - _Deep_Color: {r: 0, g: 0.38469362, b: 1, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7843137}
+    - _Foam_Transparency: {r: 1, g: 1, b: 1, a: 0.6}
     - _ShallowWater: {r: 0, g: 0.6163461, b: 1, a: 0.2509804}
+    - _Shallow_Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
