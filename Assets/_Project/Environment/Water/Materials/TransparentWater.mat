@@ -60,14 +60,14 @@ Material:
     - _FoamCutOff: 1
     - _FoamScale: 50
     - _FoamSpeed: 1
-    - _Foam_Amount: 5
-    - _Foam_CutOff: 1
-    - _Foam_Scale: 50
-    - _Foam_Speed: 1
+    - _Foam_Amount: 25
+    - _Foam_CutOff: 10
+    - _Foam_Scale: 70
+    - _Foam_Speed: 2
     - _Frequency: 5
     - _Fresnel: 1
-    - _Fresnel_Intensity: 0.5
-    - _Fresnel_Opacity: 0.02
+    - _Fresnel_Intensity: 1
+    - _Fresnel_Opacity: 1.52
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionScale: 0.06
@@ -76,15 +76,15 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _WaterDeph: 10
-    - _Water_Deph: 5
+    - _Water_Deph: 30
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
     - _DeepWater: {r: 0, g: 0.18759067, b: 0.4433962, a: 0.5176471}
-    - _Deep_Color: {r: 0, g: 0.38469362, b: 1, a: 1}
+    - _Deep_Color: {r: 0, g: 0.32844165, b: 0.4433962, a: 0.7019608}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7843137}
-    - _Foam_Transparency: {r: 1, g: 1, b: 1, a: 0.6}
+    - _Foam_Transparency: {r: 1, g: 1, b: 1, a: 0.74509805}
     - _ShallowWater: {r: 0, g: 0.6163461, b: 1, a: 0.2509804}
-    - _Shallow_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Shallow_Color: {r: 0, g: 0.7594639, b: 0.9433962, a: 0.5529412}
   m_BuildTextureStacks: []
