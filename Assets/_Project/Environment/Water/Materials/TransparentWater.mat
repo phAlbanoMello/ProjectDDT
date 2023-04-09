@@ -68,21 +68,21 @@ Material:
     - _Fresnel: 1
     - _Fresnel_Intensity: 1
     - _Fresnel_Opacity: 1.52
-    - _High_Freq: 10
+    - _High_Freq: 20
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionScale: 0.06
     - _RefractionSpeed: 0.04
     - _RefractionStrenght: 0.1
-    - _Refraction_Scale: 0.5
+    - _Refraction_Scale: 0.7
     - _Refraction_Speed: 0.1
     - _Refraction_Strenght: 0.25
     - _SrcBlend: 5
     - _Surface: 1
     - _WaterDeph: 10
     - _Water_Deph: 16
-    - _Wave_Amplitude: 0.06
-    - _Wave_Speed: 5
+    - _Wave_Amplitude: -0.17
+    - _Wave_Speed: 3.9
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
