@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterSphere
+  m_Name: ElementalWater
   m_Shader: {fileID: -6465566751694194690, guid: cbc0084e29dee794c8349b37a41bc9f4, type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
@@ -60,39 +60,39 @@ Material:
     - _FoamCutOff: 1
     - _FoamScale: 50
     - _FoamSpeed: 1
-    - _Foam_Amount: 2
-    - _Foam_CutOff: 5.83
-    - _Foam_Scale: 85
-    - _Foam_Speed: 1
+    - _Foam_Amount: 5
+    - _Foam_CutOff: 0.86
+    - _Foam_Scale: 12.69
+    - _Foam_Speed: 5
     - _Frequency: 5
-    - _Fresnel: 0
-    - _Fresnel_Intensity: 1
-    - _Fresnel_Opacity: 0.01
-    - _High_Freq: 1
+    - _Fresnel: 1
+    - _Fresnel_Intensity: 2.7
+    - _Fresnel_Opacity: 0.5
+    - _High_Freq: 10
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Reflection_Strenght: 1.54
-    - _ReflexScale: 6.4
+    - _Reflection_Strenght: 0.83
+    - _ReflexScale: 1
     - _RefractionScale: 0.06
     - _RefractionSpeed: 0.04
     - _RefractionStrenght: 0.1
-    - _Refraction_Scale: 0.5
+    - _Refraction_Scale: 0.1
     - _Refraction_Speed: 0.1
-    - _Refraction_Strenght: 0.15
+    - _Refraction_Strenght: 0.25
     - _SrcBlend: 5
     - _Surface: 1
     - _WaterDeph: 10
     - _Water_Deph: 0
-    - _Wave_Amplitude: 0.028
-    - _Wave_Speed: 5
+    - _Wave_Amplitude: 0.011
+    - _Wave_Speed: 8
     - _ZTest: 4
     - _ZWrite: 0
-    - _ZWriteControl: 0
+    - _ZWriteControl: 2
     m_Colors:
     - _DeepWater: {r: 0, g: 0.18759067, b: 0.4433962, a: 0.5176471}
-    - _Deep_Color: {r: 0, g: 0.5720693, b: 0.764151, a: 0.18431373}
+    - _Deep_Color: {r: 0, g: 0.3882353, b: 1, a: 0.36862746}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7843137}
     - _Foam_Transparency: {r: 1, g: 1, b: 1, a: 1}
     - _ShallowWater: {r: 0, g: 0.6163461, b: 1, a: 0.2509804}
-    - _Shallow_Color: {r: 0.22459061, g: 0.8460161, b: 0.9716981, a: 0.8666667}
+    - _Shallow_Color: {r: 0.5647059, g: 0.7490196, b: 0.7921569, a: 0.68235296}
   m_BuildTextureStacks: []

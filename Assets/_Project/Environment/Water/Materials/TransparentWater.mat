@@ -87,7 +87,7 @@ Material:
     - _Wave_Speed: 0.1
     - _ZTest: 4
     - _ZWrite: 0
-    - _ZWriteControl: 2
+    - _ZWriteControl: 0
     m_Colors:
     - _DeepWater: {r: 0, g: 0.18759067, b: 0.4433962, a: 0.5176471}
     - _Deep_Color: {r: 0, g: 0.3962264, b: 0.5283019, a: 0.54509807}
