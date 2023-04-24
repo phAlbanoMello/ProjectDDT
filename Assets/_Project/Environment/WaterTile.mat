@@ -20,22 +20,25 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ValidKeywords: []
+  m_Name: WaterTile
+  m_Shader: {fileID: -6465566751694194690, guid: 2517f2f62fa5ee443a0f21f6bc1989fe, type: 3}
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
   stringTagMap:
-    RenderType: Opaque
-  disabledShaderPasses: []
+    RenderType: Transparent
+  disabledShaderPasses:
+  - SHADOWCASTER
+  - DepthOnly
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 1f6ac83760899a847929e5f16afebac3, type: 3}
+        m_Texture: {fileID: 10307, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -59,7 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1f6ac83760899a847929e5f16afebac3, type: 3}
+        m_Texture: {fileID: 10307, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -74,8 +77,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_99c7b5e292f34cd687a12a1c8840d351_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: df59b7d44f9c6a74ea7a4729e87ac20a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -95,32 +106,73 @@ Material:
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
+    - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EnvironmentReflections: 1
+    - _FoamAmount: 1
+    - _FoamCutOff: 1
+    - _FoamScale: 100
+    - _FoamSpeed: 1
+    - _Foam_Amount: 0.2
+    - _Foam_CutOff: 0.92
+    - _Foam_Scale: 10
+    - _Foam_Speed: 1
+    - _Frequency: 3
+    - _Fresnel: 0
+    - _Fresnel_Intensity: 0
+    - _Fresnel_Opacity: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _High_Freq: 0
+    - _Inner_Color_Size: 0.24
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _Outline_Thickness: 1.18
     - _Parallax: 0.005
+    - _Power: 4.83
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
+    - _Reflection_Strenght: 0
+    - _ReflexScale: 0
+    - _RefractionScale: 0.5
+    - _RefractionSpeed: 0.1
+    - _RefractionStrenght: 1
+    - _Refraction_Scale: 0
+    - _Refraction_Speed: 0
+    - _Refraction_Strenght: 0
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
+    - _SrcBlend: 5
+    - _Step: 0.39
+    - _Surface: 1
+    - _WaterDeph: 13.79
+    - _Water_Deph: 0
+    - _Wave_Amplitude: 0
+    - _Wave_Speed: 0
     - _WorkflowMode: 1
-    - _ZWrite: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.24230152, g: 0.4245283, b: 0.2499581, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepWater: {r: 0, g: 0.1457092, b: 0.3396226, a: 1}
+    - _Deep_Color: {r: 0, g: 0.3149304, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7843137}
+    - _Foam_Transparency: {r: 1, g: 1, b: 1, a: 1}
+    - _Outline_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _ShallowWater: {r: 0, g: 0.6163461, b: 1, a: 1}
+    - _Shallow_Color: {r: 0, g: 0.8221002, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _UV_Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
