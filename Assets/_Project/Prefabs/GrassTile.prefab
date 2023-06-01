@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 503804324533594756}
   - component: {fileID: 503804324533594759}
   - component: {fileID: 1905427536490526353}
+  - component: {fileID: 7573421009512341722}
   m_Layer: 0
   m_Name: GrassTile
   m_TagString: Untagged
@@ -62,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: df9a5823f667a4646bf5ef4805af61f6, type: 2}
+  - {fileID: 2100000, guid: 00f6e4caf5379804684ffd1f7361826a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -98,3 +99,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &7573421009512341722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503804324533594760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2ef0b7e9027fc4a8b34c193e74d101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 2
+  TileData: {fileID: 11400000, guid: 273562b26d6ed2b4ca4840dd49a71421, type: 2}

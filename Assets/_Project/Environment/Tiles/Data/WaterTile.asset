@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2079d7f608c244fa66473c3e06edd0, type: 3}
+  m_Name: WaterTile
+  m_EditorClassIdentifier: 
+  TileType: 3
+  tileMaterial: {fileID: 2100000, guid: ff3c244b89c86da4cb85b2dff3682ed6, type: 2}
