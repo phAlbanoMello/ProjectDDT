@@ -60,10 +60,10 @@ Material:
     - _FoamCutOff: 1
     - _FoamScale: 50
     - _FoamSpeed: 1
-    - _Foam_Amount: 25
-    - _Foam_CutOff: 10
-    - _Foam_Scale: 85
-    - _Foam_Speed: 2
+    - _Foam_Amount: 1.39
+    - _Foam_CutOff: 1.18
+    - _Foam_Scale: 85.58
+    - _Foam_Speed: -0.01
     - _Frequency: 5
     - _Fresnel: 1
     - _Fresnel_Intensity: 5
@@ -82,7 +82,7 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _WaterDeph: 10
-    - _Water_Deph: 6.24
+    - _Water_Deph: 7
     - _Wave_Amplitude: 0.3
     - _Wave_Speed: 0.1
     - _ZTest: 4
@@ -90,9 +90,10 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _DeepWater: {r: 0, g: 0.18759067, b: 0.4433962, a: 0.5176471}
-    - _Deep_Color: {r: 0, g: 0.3962264, b: 0.5283019, a: 0.54509807}
+    - _Deep_Color: {r: 0, g: 0.45877, b: 0.6132076, a: 0.9137255}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7843137}
     - _Foam_Transparency: {r: 1, g: 1, b: 1, a: 1}
     - _ShallowWater: {r: 0, g: 0.6163461, b: 1, a: 0.2509804}
-    - _Shallow_Color: {r: 0.22459061, g: 0.8460161, b: 0.9716981, a: 0.15686275}
+    - _Shallow_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Vector3: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
