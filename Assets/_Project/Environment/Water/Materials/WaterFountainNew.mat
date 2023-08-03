@@ -45,6 +45,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Caustic_Texture:
+        m_Texture: {fileID: 2800000, guid: 71edd704cc3350845b281430029a2358, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -85,6 +89,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_cd7db721a70444bb916faa23171588a9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4652d0db1222e6a458979bb68774e4f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fb784d9a1fc942d3bf8978837098f78a_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4652d0db1222e6a458979bb68774e4f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -111,6 +123,13 @@ Material:
     - _Blend: 0
     - _BumpScale: 1
     - _CastShadows: 0
+    - _Caustic_Distortion_Factor: 1.18
+    - _Caustic_Distortion_Scale: 7.6
+    - _Caustic_Distortion_Speed: 0.16
+    - _Caustic_Rotation_A: 63
+    - _Caustic_Rotation_B: 7.2
+    - _Caustic_Scale: 2.19
+    - _Caustic_Strenght: 0.47
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -123,14 +142,14 @@ Material:
     - _FoamCutOff: 1
     - _FoamScale: 100
     - _FoamSpeed: 1
-    - _Foam_Amount: 0.59
-    - _Foam_CutOff: 6.99
-    - _Foam_Scale: 1.01
-    - _Foam_Speed: 0.1
-    - _Frequency: 0.1
-    - _Fresnel: 1
-    - _Fresnel_Intensity: 2.2
-    - _Fresnel_Opacity: -0.84
+    - _Foam_Amount: 0.14
+    - _Foam_CutOff: 3.2
+    - _Foam_Scale: 2.94
+    - _Foam_Speed: 0.03
+    - _Frequency: 0.02
+    - _Fresnel: 0
+    - _Fresnel_Intensity: 0.53
+    - _Fresnel_Opacity: -1.1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -145,39 +164,48 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Reflection_Strenght: 1.24
+    - _ReflexRotationA: 0.15
+    - _ReflexRotationB: 0.15
     - _ReflexScale: 5.12
     - _RefractionScale: 0.5
     - _RefractionSpeed: 0.1
     - _RefractionStrenght: 1
-    - _Refraction_Scale: 1
-    - _Refraction_Speed: 0.74
-    - _Refraction_Strenght: 0.005
+    - _Refraction_Scale: 0.001
+    - _Refraction_Speed: 1
+    - _Refraction_Strenght: 0.5
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _Step: 0.39
     - _Surface: 1
+    - _Use_Texture: 1
+    - _Voronoi_Angle_Offset: 0
+    - _Voronoi_Cell_Density: 10
     - _WaterDeph: 13.79
-    - _Water_Deph: 0.61
-    - _Wave_Amplitude: 0.16
-    - _Wave_Speed: 1
+    - _Water_Deph: 0.12
+    - _Wave_Amplitude: 0.22
+    - _Wave_Speed: 0.22
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
     - _BaseColor: {r: 0.24230152, g: 0.4245283, b: 0.2499581, a: 1}
+    - _Caustic_Offset_A: {r: 0, g: 0, b: 0, a: 0}
+    - _Caustic_Offset_B: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DeepWater: {r: 0, g: 0.1457092, b: 0.3396226, a: 1}
-    - _Deep_Color: {r: 0, g: 0.3149304, b: 1, a: 1}
+    - _Deep_Color: {r: 0, g: 0.42748955, b: 0.9150943, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7843137}
     - _Foam_Transparency: {r: 1, g: 1, b: 1, a: 1}
     - _Outline_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Reflex_Offset_A: {r: 0.05, g: 0, b: 0, a: 0}
+    - _Reflex_Offset_B: {r: 0, g: 0.05, b: 0, a: 0}
     - _Refraction_Direction: {r: 1, g: 0, b: 0, a: 0}
     - _ShallowWater: {r: 0, g: 0.6163461, b: 1, a: 1}
-    - _Shallow_Color: {r: 0, g: 0.8221002, b: 1, a: 1}
+    - _Shallow_Color: {r: 0, g: 0.8235297, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _UV_Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
