@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: WaterFall_Reflection
   m_Shader: {fileID: -6465566751694194690, guid: ae2ce7749c16f994e96740d0c7270533, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
@@ -22,6 +24,7 @@ Material:
   disabledShaderPasses:
   - SHADOWCASTER
   - DepthOnly
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -73,7 +76,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: fe5033d1eb701d54ea94c31f37d87baf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_cd98a8039f074fc3ae3cfae0109d5b1f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: fe5033d1eb701d54ea94c31f37d87baf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_ff67663ef71e464da14c8984bc7fece2_Texture_1:
+        m_Texture: {fileID: 2800000, guid: fe5033d1eb701d54ea94c31f37d87baf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ff67663ef71e464da14c8984bc7fece2_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: fe5033d1eb701d54ea94c31f37d87baf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -100,6 +111,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 1
+    - _AlphaToMask: 0
     - _Blend: 2
     - _BumpScale: 1
     - _CastShadows: 0
@@ -159,4 +171,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7
